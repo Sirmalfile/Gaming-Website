@@ -11,3 +11,4 @@ userRouter.post('/forget', forgetPassword)
 userRouter.get('/logout', authUser, logout)
 
 export default userRouter
+

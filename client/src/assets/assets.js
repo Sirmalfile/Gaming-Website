@@ -1,4 +1,4 @@
-import logo from "./logo.ico"
+import logo from "./logo.svg"
 import search_icon from "./search_icon.svg";
 import remove_icon from "./remove_icon.svg";
 import arrow_right_icon_colored from "./arrow_right_icon_colored.svg";
@@ -21,7 +21,7 @@ import trust_icon from "./trust_icon.svg";
 import black_arrow_icon from "./black_arrow_icon.svg";
 import white_arrow_icon from "./white_arrow_icon.svg";
 
-import add_address_iamge from "./add_address_image.svg";
+import add_address_iamge from "./add_address_image.png";
 
 
 import gaming_pc from "./gaming_pc.png"
@@ -31,7 +31,9 @@ import hard_disk from "./hard_disk.png"
 import other_product from "./other_product.png"
 
 
-import pc_banner from "./pc_banner.png"
+import gaming_pc_image from "./gaming_pc_image.png"
+import gaming_graphic_image from "./gaming_graphic_image.png"
+import gaming_processor_image from "./gaming_processor_image.png"
 
 
 export const assets = {
@@ -56,13 +58,12 @@ export const assets = {
   trust_icon,
   black_arrow_icon,
   white_arrow_icon,
-  // main_banner_bg,
-  // main_banner_bg_sm,
-  // bottom_banner_image,
-  // bottom_banner_image_sm,
+
   add_address_iamge,
   box_icon,
-  pc_banner
+  gaming_pc_image,
+  gaming_graphic_image,
+  gaming_processor_image
 };
 
 export const categories = [

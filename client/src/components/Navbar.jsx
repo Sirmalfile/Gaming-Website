@@ -34,7 +34,7 @@ const Navbar = () => {
     <nav className="flex items-center justify-between px-6 md:px-16 lg:px-24 xl:px-32 py-4 border-b border-gray-300 bg-white relative transition-all">
 
       <NavLink to='/' onClick={() => setOpen(false)}>
-        <img src={assets.logo} alt="logo" className='w-15 h-15' />
+        <img src={assets.logo} alt="logo" className='cursor-pointer w-15 h-12' />
       </NavLink>
 
       <div className="hidden sm:flex items-center gap-8">

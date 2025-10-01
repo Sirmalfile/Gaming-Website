@@ -68,8 +68,8 @@ export const assets = {
 
 export const categories = [
   {
-    text: "Gaming pc",
-    path: "Gamingpc",
+    text: "CPU",
+    path: "CPU",
     image: gaming_pc,
     // bgColor: "#FEF6DA",
   },

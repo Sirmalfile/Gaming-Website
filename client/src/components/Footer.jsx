@@ -26,7 +26,7 @@ const Footer = () => {
                 </div>
             </div>
             <p className="py-4 text-center text-sm md:text-base text-black">
-                Copyright {new Date().getFullYear()} © FrameForce All Right Reserved.
+                Copyright {new Date().getFullYear()} © FrameForge All Right Reserved.
             </p>
         </div>
     );

@@ -19,7 +19,7 @@ import ProductList from './pages/seller/ProductList';
 import Orders from './pages/seller/Orders';
 import Loading from './components/Loading';
 import ForgetPassword from './pages/ForgetPassword';
-
+import Services from './pages/Services';
 const App = () => {
 
   const isSellerPath = useLocation().pathname.includes("seller");
@@ -44,6 +44,7 @@ const App = () => {
           <Route path='/my-orders' element={<MyOrders />} />
           <Route path='/loader' element={<Loading />} />
           <Route path='/forget' element={<ForgetPassword />} />
+          <Route path='/services' element={<Services />} />
           <Route path='/seller' element={isSeller ? <SellerLayout /> : <SellerLogin />}>
             <Route index element={isSeller ? <AddProduct /> : null} />
             <Route path='product-list' element={<ProductList />} />

@@ -6,7 +6,7 @@ const Footer = () => {
         <div className="px-6 md:px-16 lg:px-24 xl:px-32 mt-24 bg-blue-100">
             <div className="flex flex-col md:flex-row items-start justify-between gap-10 py-10 border-b border-gray-500/30 text-gray-500">
                 <div>
-                    <img src={assets.logo} alt="logo" srcset="" className="w-15 h-15" />
+                    <span className='uppercase text-4xl font-bold bg-gradient-to-r from-[#646cff] to-[#af5cf7] bg-clip-text text-transparent'>f</span><span className='text-2xl font-bold bg-gradient-to-r from-[#646cff] to-[#af5cf7] bg-clip-text text-transparent'>rame</span><span className='uppercase text-4xl font-bold bg-gradient-to-r from-[#535bf4] to-[#af5cf7] bg-clip-text text-transparent'>F</span><span className='text-2xl font-bold bg-gradient-to-r from-[#646cff] to-[#af5cf7] bg-clip-text text-transparent'>orge</span>
                     <p className="max-w-[410px] mt-6 text-black">
                         We bring the best games and gear right to your screen. Trusted by thousands of players, we’re here to make your gaming experience seamless, exciting, and affordable.</p>
                 </div>

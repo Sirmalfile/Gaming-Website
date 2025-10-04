@@ -32,11 +32,11 @@ const SellerLayout = () => {
         <>
             <div className="flex items-center justify-between px-4 md:px-8 border-b border-gray-300 py-3 bg-white">
                 <Link to='/'>
-                    <p>FrameForce</p>
+                    <span className='uppercase text-4xl font-bold bg-gradient-to-r from-[#646cff] to-[#af5cf7] bg-clip-text text-transparent'>f</span><span className='text-2xl font-bold bg-gradient-to-r from-[#646cff] to-[#af5cf7] bg-clip-text text-transparent'>rame</span><span className='uppercase text-4xl font-bold bg-gradient-to-r from-[#535bf4] to-[#af5cf7] bg-clip-text text-transparent'>F</span><span className='text-2xl font-bold bg-gradient-to-r from-[#646cff] to-[#af5cf7] bg-clip-text text-transparent'>orge</span>
                 </Link>
                 <div className="flex items-center gap-5 text-gray-500">
                     <p>Hi! Admin</p>
-                    <button onClick={logout} className='border rounded-full text-sm px-4 py-1'>Logout</button>
+                    <button onClick={logout} className='border cursor-pointer rounded-full text-sm px-4 py-1'>Logout</button>
                 </div>
             </div>
             <div className="flex">

@@ -34,6 +34,9 @@ import other_product from "./other_product.png"
 import gaming_pc_image from "./gaming_pc_image.png"
 import gaming_graphic_image from "./gaming_graphic_image.png"
 import gaming_processor_image from "./gaming_processor_image.png"
+import pc_expart_image from "./export1.png"
+import pc_expart from "./export2.png"
+import pc_expart3 from "./export3.png"
 
 
 export const assets = {
@@ -63,7 +66,10 @@ export const assets = {
   box_icon,
   gaming_pc_image,
   gaming_graphic_image,
-  gaming_processor_image
+  gaming_processor_image,
+  pc_expart_image,
+  pc_expart,
+  pc_expart3
 };
 
 export const categories = [

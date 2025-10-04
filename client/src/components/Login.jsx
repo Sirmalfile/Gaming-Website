@@ -12,6 +12,10 @@ const Login = () => {
 
     const onSubmitHandler = async (event) => {
         event.preventDefault();
+        if (password.length < 6) {
+            toast.error("Password must be at least 6 characters long.");
+            return;
+        }
         try {
             if (state === "forget") {
                 // 🔹 call forget password API

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { assets } from "../assets/assets";
 
 const Services = () => {
     const [selectedService, setSelectedService] = useState("Custom PC Build");
@@ -216,21 +217,21 @@ const Services = () => {
             <div className="mb-12">
                 <h2 className="text-3xl font-bold text-center mb-8 text-indigo-700">Our Services</h2>
                 <div className="grid md:grid-cols-3 gap-6">
-                    <div className="bg-white p-6 shadow rounded-lg hover:shadow-lg transition">
-                        <h3 className="text-xl font-bold mb-2">Custom PC Build</h3>
-                        <p className="text-gray-600 text-sm">
+                    <div className="bg-blue-600 p-6 shadow  rounded-lg hover:shadow-lg transition">
+                        <h3 className="text-xl font-bold mb-2 text-white ">Custom PC Build</h3>
+                        <p className="text-gray-200 text-sm">
                             Share your gaming needs and preferences, and we’ll craft a PC tailored for performance, style, and budget.
                         </p>
                     </div>
-                    <div className="bg-white p-6 shadow rounded-lg hover:shadow-lg transition">
-                        <h3 className="text-xl font-bold mb-2">PC Repair & Maintenance</h3>
-                        <p className="text-gray-600 text-sm">
+                    <div className="bg-blue-600 p-6 shadow rounded-lg hover:shadow-lg transition">
+                        <h3 className="text-xl font-bold text-white mb-2">PC Repair & Maintenance</h3>
+                        <p className="text-gray-200 text-sm">
                             Our experts provide fast, reliable repairs and upgrades for hardware and software issues.
                         </p>
                     </div>
-                    <div className="bg-white p-6 shadow rounded-lg hover:shadow-lg transition">
-                        <h3 className="text-xl font-bold mb-2">Other Product Services</h3>
-                        <p className="text-gray-600 text-sm">
+                    <div className="bg-blue-600 p-6 shadow rounded-lg hover:shadow-lg transition">
+                        <h3 className="text-xl text-white font-bold mb-2">Other Product Services</h3>
+                        <p className="text-gray-200 text-sm">
                             From peripherals to accessories, we diagnose and fix issues with a wide range of products.
                         </p>
                     </div>
@@ -243,7 +244,7 @@ const Services = () => {
                 <div className="grid md:grid-cols-3 gap-8">
                     <div className="bg-white p-6 rounded-lg shadow text-center">
                         <img
-                            src="https://via.placeholder.com/120"
+                            src={assets.pc_expart_image}
                             alt="Technician"
                             className="w-24 h-24 rounded-full mx-auto mb-4 border-2 border-indigo-600"
                         />
@@ -252,7 +253,7 @@ const Services = () => {
                     </div>
                     <div className="bg-white p-6 rounded-lg shadow text-center">
                         <img
-                            src="https://via.placeholder.com/120"
+                            src={assets.pc_expart}
                             alt="Technician"
                             className="w-24 h-24 rounded-full mx-auto mb-4 border-2 border-indigo-600"
                         />
@@ -261,7 +262,7 @@ const Services = () => {
                     </div>
                     <div className="bg-white p-6 rounded-lg shadow text-center">
                         <img
-                            src="https://via.placeholder.com/120"
+                            src={assets.pc_expart3}
                             alt="Technician"
                             className="w-24 h-24 rounded-full mx-auto mb-4 border-2 border-indigo-600"
                         />

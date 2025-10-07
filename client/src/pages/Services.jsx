@@ -81,7 +81,7 @@ const Services = () => {
         e.preventDefault();
 
         try {
-            const res = await fetch("http://localhost:4000/api/services/create", {
+            const res = await fetch("https://eceb-backend-seven.vercel.app/api/services/create", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",

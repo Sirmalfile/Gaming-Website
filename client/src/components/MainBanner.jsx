@@ -7,24 +7,24 @@ const MainBanner = () => {
       id: 1,
       title: "Dominate Every Battle – The Gaming PC Built for You!",
       offer: "Limited Time Offer 30% Off",
-      buttonText1: "Buy now",
-      buttonText2: "Find more",
+      // buttonText1: "Buy now",
+      // buttonText2: "Find more",
       imgSrc: assets.gaming_pc_image, // Update with your actual image paths
     },
     {
       id: 2,
       title: "Next-Gen Visuals, Next-Level Gaming!",
       offer: "Hurry up only few lefts!",
-      buttonText1: "Shop Now",
-      buttonText2: "Explore Deals",
+      // buttonText1: "Shop Now",
+      // buttonText2: "Explore Deals",
       imgSrc: assets.gaming_graphic_image,
     },
     {
       id: 3,
       title: "Power Beyond Limits – The Processor That Drives You!",
       offer: "Exclusive Deal 40% Off",
-      buttonText1: "Order Now",
-      buttonText2: "Learn More",
+      // buttonText1: "Order Now",
+      // buttonText2: "Learn More",
       imgSrc: assets.gaming_processor_image,
     },
   ];
@@ -61,9 +61,9 @@ const MainBanner = () => {
                 {slide.title}
               </h1>
               <div className="flex items-center mt-4 md:mt-6 ">
-                <button className="md:px-10 px-7 md:py-2.5 py-2 bg-orange-600 rounded-full text-white font-medium">
+                {/* <button className="md:px-10 px-7 md:py-2.5 py-2 bg-orange-600 rounded-full text-white font-medium">
                   {slide.buttonText1}
-                </button>
+                </button> */}
                 <button className="group flex items-center gap-2 px-6 py-2.5 font-medium">
                   {slide.buttonText2}
                   {/* <img

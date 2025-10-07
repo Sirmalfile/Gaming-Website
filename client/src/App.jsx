@@ -45,6 +45,7 @@ const App = () => {
           <Route path='/loader' element={<Loading />} />
           <Route path='/forget' element={<ForgetPassword />} />
           <Route path='/services' element={<Services />} />
+          <Route path="/checkout" element={<Checkout />} />
           <Route path='/seller' element={isSeller ? <SellerLayout /> : <SellerLogin />}>
             <Route index element={isSeller ? <AddProduct /> : null} />
             <Route path='product-list' element={<ProductList />} />

@@ -31,7 +31,7 @@ const Navbar = () => {
   }, [searchQuery])
 
   return (
-    <nav className="flex items-center justify-between px-6 md:px-16 lg:px-24 xl:px-32 py-4 border-b border-gray-300 bg-white relative transition-all">
+    <nav className="flex items-center justify-between px-6 md:px-16 lg:px-24 xl:px-32 py-4 border-b border-gray-300 bg-white relative z-50 transition-all">
 
       <NavLink to='/' onClick={() => setOpen(false)}>
         <span className='uppercase text-4xl font-bold bg-gradient-to-r from-[#646cff] to-[#af5cf7] bg-clip-text text-transparent'>f</span><span className='text-2xl font-bold bg-gradient-to-r from-[#646cff] to-[#af5cf7] bg-clip-text text-transparent'>rame</span><span className='uppercase text-4xl font-bold bg-gradient-to-r from-[#535bf4] to-[#af5cf7] bg-clip-text text-transparent'>F</span><span className='text-2xl font-bold bg-gradient-to-r from-[#646cff] to-[#af5cf7] bg-clip-text text-transparent'>orge</span>
